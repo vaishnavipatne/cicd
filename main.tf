@@ -1,3 +1,6 @@
+provider "google" {
+project = "qwiklabs-gcp-00-1931b53170c7"
+}
 resource "google_compute_instance" "default" {
   name         = "my-instance"
   machine_type = "n2-standard-2"
